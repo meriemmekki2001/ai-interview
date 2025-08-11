@@ -1,0 +1,84 @@
+{
+  "BoardDeck.pdf": {
+    "company": "Acorn Capital",
+    "year": 2024,
+    "board": {
+      "chair": {
+        "name": "Maria Lopez",
+        "independence": "Independent"
+      },
+      "members": [
+        {
+          "name": "Maria Lopez",
+          "role": "Chair",
+          "independence": "Independent"
+        },
+        {
+          "name": "Daniel Chen",
+          "role": "CEO",
+          "independence": "Executive"
+        },
+        {
+          "name": "Fatima Khan",
+          "role": "CFO",
+          "independence": "Executive"
+        },
+        {
+          "name": "John Smith",
+          "role": "NED",
+          "independence": "Independent"
+        },
+        {
+          "name": "Alice Martin",
+          "role": "NED",
+          "independence": "Non-Independent"
+        }
+      ],
+      "counts": {
+        "total": 5,
+        "independent": 2,
+        "women": 2
+      }
+    }
+  },
+  "ESG_Report.pdf": {
+    "company": "Fabrikam Industries",
+    "year": 2024,
+    "ghg": {
+      "base_year": 2022,
+      "scope1_tco2e": 12430,
+      "scope2_market_tco2e": 8210,
+      "scope3_tco2e": 95600,
+      "total_tco2e": 116240,
+      "intensity_tco2e_per_eur_m": 42.3
+    },
+    "policies": {
+      "anti_corruption": true,
+      "whistleblowing": true,
+      "human_rights": true,
+      "climate_policy": true,
+      "dei_policy": false,
+      "assurance": "Limited"
+    }
+  },
+  "Sustainability_Policy_Pack.pdf": {
+    "company": "Northwind Traders",
+    "year": 2023,
+    "ghg": {
+      "scope1_tco2e": 5980,
+      "scope2_location_tco2e": 4110,
+      "scope3_tco2e": 61000
+    },
+    "policies": {
+      "anti_corruption": true,
+      "whistleblowing": true,
+      "human_rights": true,
+      "climate_policy": true,
+      "dei_policy": null,
+      "assurance": null
+    },
+    "governance": {
+      "board_oversight": "Audit Committee quarterly review"
+    }
+  }
+}
