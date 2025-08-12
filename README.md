@@ -13,8 +13,10 @@ Your task is to implement the `extract_esg_info()` function in `src/extract.py`.
 5. **Parse numeric data** with proper unit handling
 
 To do so you can rely on OpenAI api (we will provide you with an API key).
-You are free to use the libraries you want for this project ([openai-python](https://github.com/openai/openai-python),
+You are free to use the libraries you want for this project ([openai](https://github.com/openai/openai-python),
 [langchain](https://www.langchain.com/), ...).
+
+We don't recommend spending more than 2 hours on this exercise.
 
 ## Quick Start
 

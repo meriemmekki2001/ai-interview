@@ -1,11 +1,11 @@
 from pydantic import BaseModel
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Literal
 
 
 class BoardMember(BaseModel):
     name: str
     role: str
-    independence: Optional[str] = None
+    independence: Optional[Literal["Independent", "Executive", "Non-Independent"]] = None
 
 
 class BoardInfo(BaseModel):
