@@ -1,0 +1,23 @@
+{
+    "company": "Fabrikam Industries",
+    "year": 2024,
+    "board": null,
+    "ghg": {
+        "base_year": 2022,
+        "scope1_tco2e": 12430.0,
+        "scope2_market_tco2e": 8210.0,
+        "scope2_location_tco2e": null,
+        "scope3_tco2e": 95600.0,
+        "total_tco2e": 116240.0,
+        "intensity_tco2e_per_eur_m": 42.3
+    },
+    "policies": {
+        "anti_corruption": true,
+        "whistleblowing": true,
+        "human_rights": true,
+        "climate_policy": true,
+        "dei_policy": null,
+        "assurance": "Limited assurance of GHG data provided by Example & Co."
+    },
+    "governance": null
+}

@@ -1,0 +1,42 @@
+{
+    "company": "Acorn Capital",
+    "year": 2024,
+    "board": {
+        "chair": {
+            "name": "Maria Lopez",
+            "role": "Chair",
+            "independence": "Independent"
+        },
+        "members": [
+            {
+                "name": "Maria Lopez",
+                "role": "Chair",
+                "independence": "Independent"
+            },
+            {
+                "name": "Daniel Chen",
+                "role": "CEO",
+                "independence": "Executive"
+            },
+            {
+                "name": "Fatima Khan",
+                "role": "CFO",
+                "independence": "Executive"
+            },
+            {
+                "name": "John Smith",
+                "role": "NED",
+                "independence": "Independent"
+            },
+            {
+                "name": "Alice Martin",
+                "role": "NED",
+                "independence": "Non-Independent"
+            }
+        ],
+        "counts": null
+    },
+    "ghg": null,
+    "policies": null,
+    "governance": null
+}

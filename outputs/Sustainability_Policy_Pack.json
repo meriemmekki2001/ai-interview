@@ -1,0 +1,23 @@
+{
+    "company": "Northwind Traders",
+    "year": 2023,
+    "board": null,
+    "ghg": {
+        "base_year": null,
+        "scope1_tco2e": 5980.0,
+        "scope2_market_tco2e": null,
+        "scope2_location_tco2e": 4110.0,
+        "scope3_tco2e": 61000.0,
+        "total_tco2e": null,
+        "intensity_tco2e_per_eur_m": null
+    },
+    "policies": {
+        "anti_corruption": true,
+        "whistleblowing": true,
+        "human_rights": true,
+        "climate_policy": true,
+        "dei_policy": null,
+        "assurance": null
+    },
+    "governance": null
+}

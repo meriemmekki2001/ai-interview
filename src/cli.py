@@ -1,4 +1,5 @@
 import pathlib
+import json
 
 from reader import get_text_from_pdf
 from extract import extract_esg_info
@@ -11,6 +12,11 @@ from utils import (
     print_detailed_errors,
     find_pdf_files,
 )
+
+
+output_dir = pathlib.Path("outputs")
+output_dir.mkdir(exist_ok=True)
+
 
 
 def run():
@@ -57,6 +63,12 @@ def run():
             # Extract ESG information
             try:
                 extracted_data = extract_esg_info(text)
+
+                output_path = output_dir / f"{pdf_file.stem}.json"
+                with open(output_path, "w", encoding="utf-8") as f:
+                    json.dump(extracted_data, f, indent=4, ensure_ascii=False)
+
+
             except NotImplementedError:
                 print(f"Skipping {pdf_file.name}: extract_esg_info not implemented")
                 print_file_status(pdf_file.name, "Not implemented")
